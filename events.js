@@ -25,7 +25,7 @@ webide.module("forms", function(tabs, commands){
             tabs.itens[state.id].cb(state.id);
     });
     
-    this.forms = {
+    this.extends("forms", {
         /**
          * Function to associate custom forms
          * 
@@ -152,5 +152,5 @@ webide.module("forms", function(tabs, commands){
             
             return dataReturn;
         }
-    };
+    });
 });

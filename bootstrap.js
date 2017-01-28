@@ -34,6 +34,6 @@ module.exports = {
     bootstrap: function(_this){ 
         _this.navbar.addItem("Tools/Form Builder...", {
             onclick: "webide.tabs.add('Form Builder', 'formbuilder', 'formbuilder')"
-        }, 100);
+        }, 1000);
     }
 };
