@@ -31,8 +31,8 @@ module.exports = {
      * @param object app
      * @return this
      */
-    bootstrap: function(_this){ 
-        _this.navbar.addItem("Tools/Form Builder...", {
+    bootstrap: function(navbar){ 
+        navbar.addItem("Tools/Form Builder...", {
             onclick: "webide.tabs.add('Form Builder', 'formbuilder', 'formbuilder')"
         }, 1000);
     }
