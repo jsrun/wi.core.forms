@@ -1,6 +1,6 @@
 {
     "name": "wi.core.forms",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "WebIDE forms manager",
     "author": "André Ferreira <andrehrf@gmail.com>",
     "license": "MIT",

@@ -12,9 +12,6 @@
 
 "use strict";
 
-let SystemException = require("../wi.core.exception.js"),
-    TemplateEngine = require("../wi.core.template.js");
-
 module.exports = {    
     /**
      * List module assets
